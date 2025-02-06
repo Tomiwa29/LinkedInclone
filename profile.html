@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+            <div class="search-box"><img src="images/search.png">
+            <input type="text " placeholder="Search">
+            </div>
+        
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png" alt=""><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png" alt=""><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png" alt=""><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png" alt=""><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png" alt=""><span>Notification</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/IMG_9300.jpg" class="nav-profile-img" onclick="toggleMenu()">
+
+            </div>
+        </div>
+        <!---Profile drop down menu---->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/IMG_9300.jpg">
+                    <div>
+                        <h3>Dosunmu Tomiwa</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Settings&privacy</p>
+                    <span></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Display & Accessibility</p>
+                    <span></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+
+
+
+    </nav>
+<!----------- navbar close ----------->
+
+
+<div class="container">
+    <div class="profile-main">
+      <div class="profile-container">
+        <img src="images/cov.png" width="100%">
+        <div class="profile-container-inner">
+            <img src="images/IMG_9300.jpg" class="profile-pic">
+            <h1>Dosunmu Oluwatomiwa</h1>
+            <b>Software Engineer at Google| Frontend developer</b>
+            <p>Lagos, Nigeria &middot; <a href="#">Contact info</a></p>
+            <div class="mutual-connection">
+                <img src="images/user-2.png" >
+                <span> 1 mutual connection: Orlando Diggs </span>
+            </div>
+            <div class="profile-btn">
+
+                <a href="#" class="primary-btn"><img src="images/connect.png">Connect</a>
+                <a href="#"><img src="images/chat.png">Message</a>
+            </div>
+        </div>
+      
+    </div>
+    <div class="profile-description">
+        <h2>About</h2>
+        <p>Aspiring Software Engineer Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Temporibus quisquam accusamus ullam quia id est,
+         consectetur quis fugiat eos maxime totam vitae dicta. Quis similique, suscipit
+          sapiente quia placeat architecto?</p>
+          <a href="#" class="see-more-link">See more...</a>
+    </div>
+
+    <div class="profile-description">
+        <h2>Experience</h2>
+        <div class="profile-desc-row">
+            <img src="images/google.png" >
+            <div>
+            <h3>Front-End Developer</h3>
+            <b>Microsoft &middot; Full-time</b>
+            <b>Nov 2023 - Present &middot; 1year</b>
+            <p>Computer Programming is the process of performing a particular
+                computation, usually by designing and
+                building an executable commputer program.
+            </p>
+            <hr>
+        </div>
+        </div>
+    
+
+        <div class="profile-desc-row">
+            <img src="images/microsoft.png" >
+            <div>
+            <h3> Software Engineer Intern</h3>
+            <b>Microsoft &middot; Full-time</b>
+            <b>April 2023 - Oct 2023 &middot; 1year</b>
+            <p>Computer Programming is the process of performing a particular
+                computation, usually by designing and
+                building an executable commputer program.
+            </p>
+            <hr>
+        </div>
+        </div>
+        <div class="profile-desc-row">
+            <img src="images/uba.png" >
+            <div>
+            <h3>IT Intern</h3>
+            <b> UBA &middot; Internship</b>
+            <b>May 2022 - August 2022 &middot; 1year</b>
+            <p>Computer Programming is the process of performing a particular
+                computation, usually by designing and
+                building an executable commputer program.
+            </p>
+        
+        </div>
+        </div>
+        <hr>
+        <a href="#" class="experience-link">Show all 4 experiences <img src="images/right-arrow.png" alt=""></a>
+    </div>
+    <div class="profile-description">
+        <h2>Eductaion</h2>
+        <div class="profile-desc-row">
+            <img src="images/stanford.png" >
+            <div>
+                <h3>Stanford University</h3>
+                <b>MSC, Software Engineering</b>
+                <b>2025-2026</b>
+                <hr>
+            </div>
+        </div>
+        <div class="profile-desc-row">
+            <img src="images/lmu.jpeg" >
+            <div>
+                <h3>Landmark University</h3>
+                <b>BSC, Computer Science</b>
+                <b>2019-2023</b>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="profile-description">
+        <h2>Skills</h2>
+        <a href="#" class="skill-btn">Leadership</a>
+        <a href="#" class="skill-btn">Web Design</a>
+        <a href="#" class="skill-btn">Javascrript</a>
+        <a href="#" class="skill-btn">Java</a>
+        <a href="#" class="skill-btn">Willingness to learn</a>
+        <a href="#" class="skill-btn">Problem solving</a>
+        <a href="#" class="skill-btn">Team-work</a>
+        <a href="#" class="skill-btn">Adaptability</a>
+
+
+    </div>
+    <div class="profile-description">
+        <h2>Languages</h2>
+        <a href="#" class="language-btn">English</a>
+        <a href="#" class="language-btn">Spanish</a>
+       
+
+    </div>
+    </div>
+
+<!-- -------profile-sidebar---------- -->
+    <div class="profile-sidebar">
+
+        <div class="sidebar-ad">
+            <small>Ad &middot;&middot;&middot;</small>
+            <p>aster the 5 principles of webdesign</p>
+            <div>
+                <img src="images/IMG_9300.jpg" alt="">
+                <img src="images/mi-logo.png" alt="">
+            </div>
+            <b>Brand and demand in Xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+        <div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-3.png">
+                <div>
+                    <h2>Gladis Hope</h2>
+                    <p>Human Resource Manager at LinkedIn</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="images/user-4.png">
+                <div>
+                    <h2>Kristy Smith</h2>
+                    <p>Founder of hdhs </p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="images/user-5.png">
+                <div>
+                    <h2>Mark Zuck </h2>
+                    <p>Ceo/Founder at Facebook</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    
+</div>
+
+<div class="profile-footer">
+
+    <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy&Terms</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the LinkedIn app</a>
+        <a href="#">More</a>
+
+        <div class="copyright-msg">
+            <img src="images/logo.png" >
+            <p>Linkedup &#169;2022. All right reserved</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    let profileMenu= document.getElementById("profileMenu");
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu");
+    }
+</script>
+</body>
+</html>
+
